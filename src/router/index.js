@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/pages/home/Home'
 import City from '@/pages/city/City'
 import Login from '@/pages/login/Login'
+import Reg from '@/pages/reg/Reg'
 import Detail from '@/pages/detail/Detail'
 
 Vue.use(Router)
@@ -23,6 +24,11 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/reg',
+      name: 'Reg',
+      component: Reg
     },
     {
       path: '/detail/:id',

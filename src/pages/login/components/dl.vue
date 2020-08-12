@@ -26,6 +26,7 @@
                 <li><a href="#">手机号码</a></li>
             </ul>
         </div>
+        <router-link to="../../reg"><i class="reg_link"></i></router-link>
     </div>
 </template>
 
@@ -48,5 +49,6 @@ export default {
 .login_partners{padding-top:34px; padding-left:80px;}
 .login_list li{float:left; line-height:20px;}
 .login_list span{color:#999; margin:0 2px;}
+.reg_link{width:115px; height:31px; background:url(../../images/mfzc.gif) left top no-repeat; position:absolute; right:-1px; bottom:-36px;}
 
 </style>
