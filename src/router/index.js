@@ -4,6 +4,7 @@ import Home from '@/pages/home/Home'
 import City from '@/pages/city/City'
 import Login from '@/pages/login/Login'
 import Reg from '@/pages/reg/Reg'
+import Zaz from '@/pages/zaza/Zaz'
 import Detail from '@/pages/detail/Detail'
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
       path: '/reg',
       name: 'Reg',
       component: Reg
+    },
+    {
+      path: '/zaza',
+      name: 'Zaz',
+      component: Zaz
     },
     {
       path: '/detail/:id',
