@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped>
-.loginBox{width:458px; border:#999 solid 1px; margin:10px auto; padding:15px 40px; position:relative;}
+.loginBox{width:458px; border:#999 solid 1px; margin:10px auto; padding:15px 40px; position:relative; background: url(../../images/fj.gif);}
 .login_cont{padding:15px 76px;}
 .l_tit{color:#666; line-height:20px;}
 .login_input{border:#999 solid 1px; height:32px; line-height:32px\9; text-indent:5px; width:100%;}
